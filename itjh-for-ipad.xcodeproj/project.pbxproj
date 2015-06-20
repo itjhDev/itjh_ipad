@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BF3A6544DC256DB4F15CC4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F1C9FA762B95C37A20FE47 /* libPods.a */; };
+		1800C20F1B313C760099EAB9 /* YCXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C20C1B313C760099EAB9 /* YCXMenu.m */; };
+		1800C2101B313C760099EAB9 /* YCXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C20E1B313C760099EAB9 /* YCXMenuItem.m */; };
+		1800C2141B3146800099EAB9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C2131B3146800099EAB9 /* LoginViewController.m */; };
+		1800C2171B3146990099EAB9 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C2161B3146990099EAB9 /* SignUpViewController.m */; };
+		1800C21A1B324D540099EAB9 /* PickHeadImagePopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C2191B324D540099EAB9 /* PickHeadImagePopoverController.m */; };
+		1800C21C1B326EAE0099EAB9 /* PickHeadImagePopoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1800C21B1B326EAE0099EAB9 /* PickHeadImagePopoverController.xib */; };
+		1800C21F1B32D5D10099EAB9 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C21E1B32D5D10099EAB9 /* CollectionViewController.m */; };
+		18042A791B20A34C001AA1D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042A781B20A34C001AA1D3 /* main.m */; };
+		18042A7C1B20A34C001AA1D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042A7B1B20A34C001AA1D3 /* AppDelegate.m */; };
+		18042A7F1B20A34C001AA1D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042A7E1B20A34C001AA1D3 /* ViewController.m */; };
+		18042A821B20A34C001AA1D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18042A801B20A34C001AA1D3 /* Main.storyboard */; };
+		18042A841B20A34C001AA1D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18042A831B20A34C001AA1D3 /* Images.xcassets */; };
+		18042A871B20A34C001AA1D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18042A851B20A34C001AA1D3 /* LaunchScreen.xib */; };
+		18042A931B20A34C001AA1D3 /* itjh_for_ipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042A921B20A34C001AA1D3 /* itjh_for_ipadTests.m */; };
+		182DF45D1B24213100EB46D9 /* NewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DF45B1B24213100EB46D9 /* NewsCollectionViewCell.m */; };
+		182DF4621B24367200EB46D9 /* NewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DF4611B24367200EB46D9 /* NewsWebViewController.m */; };
+		18D656851B25273300C42679 /* NewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D656841B25273300C42679 /* NewsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18042A8D1B20A34C001AA1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18042A6B1B20A34C001AA1D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18042A721B20A34C001AA1D3;
+			remoteInfo = "itjh-for-ipad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1800C20B1B313C760099EAB9 /* YCXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenu.h; sourceTree = "<group>"; };
+		1800C20C1B313C760099EAB9 /* YCXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenu.m; sourceTree = "<group>"; };
+		1800C20D1B313C760099EAB9 /* YCXMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenuItem.h; sourceTree = "<group>"; };
+		1800C20E1B313C760099EAB9 /* YCXMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenuItem.m; sourceTree = "<group>"; };
+		1800C2121B3146800099EAB9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1800C2131B3146800099EAB9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1800C2151B3146990099EAB9 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		1800C2161B3146990099EAB9 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		1800C2181B324D540099EAB9 /* PickHeadImagePopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickHeadImagePopoverController.h; sourceTree = "<group>"; };
+		1800C2191B324D540099EAB9 /* PickHeadImagePopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickHeadImagePopoverController.m; sourceTree = "<group>"; };
+		1800C21B1B326EAE0099EAB9 /* PickHeadImagePopoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickHeadImagePopoverController.xib; sourceTree = "<group>"; };
+		1800C21D1B32D5D10099EAB9 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		1800C21E1B32D5D10099EAB9 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		18042A731B20A34C001AA1D3 /* itjh-for-ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itjh-for-ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18042A771B20A34C001AA1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18042A781B20A34C001AA1D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18042A7A1B20A34C001AA1D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18042A7B1B20A34C001AA1D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18042A7D1B20A34C001AA1D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18042A7E1B20A34C001AA1D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18042A811B20A34C001AA1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18042A831B20A34C001AA1D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18042A861B20A34C001AA1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18042A8C1B20A34C001AA1D3 /* itjh-for-ipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "itjh-for-ipadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18042A911B20A34C001AA1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18042A921B20A34C001AA1D3 /* itjh_for_ipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itjh_for_ipadTests.m; sourceTree = "<group>"; };
+		182DF45A1B24213100EB46D9 /* NewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCollectionViewCell.h; path = ../NewsCollectionViewCell.h; sourceTree = "<group>"; };
+		182DF45B1B24213100EB46D9 /* NewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCollectionViewCell.m; path = ../NewsCollectionViewCell.m; sourceTree = "<group>"; };
+		182DF4601B24367200EB46D9 /* NewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsWebViewController.h; path = ../NewsWebViewController.h; sourceTree = "<group>"; };
+		182DF4611B24367200EB46D9 /* NewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsWebViewController.m; path = ../NewsWebViewController.m; sourceTree = "<group>"; };
+		18D656811B251F1200C42679 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		18D656831B25273300C42679 /* NewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsManager.h; sourceTree = "<group>"; };
+		18D656841B25273300C42679 /* NewsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsManager.m; sourceTree = "<group>"; };
+		4E709E176DC70B049F7FDD1C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BC83264FE5B11A727C9E21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B8F1C9FA762B95C37A20FE47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18042A701B20A34C001AA1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF3A6544DC256DB4F15CC4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18042A891B20A34C001AA1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1800C20A1B313C760099EAB9 /* YCXMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1800C20B1B313C760099EAB9 /* YCXMenu.h */,
+				1800C20C1B313C760099EAB9 /* YCXMenu.m */,
+				1800C20D1B313C760099EAB9 /* YCXMenuItem.h */,
+				1800C20E1B313C760099EAB9 /* YCXMenuItem.m */,
+			);
+			path = YCXMenu;
+			sourceTree = "<group>";
+		};
+		1800C2111B3146410099EAB9 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				18042A7D1B20A34C001AA1D3 /* ViewController.h */,
+				18042A7E1B20A34C001AA1D3 /* ViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		18042A6A1B20A34C001AA1D3 = {
+			isa = PBXGroup;
+			children = (
+				18042A751B20A34C001AA1D3 /* itjh-for-ipad */,
+				18042A8F1B20A34C001AA1D3 /* itjh-for-ipadTests */,
+				18042A741B20A34C001AA1D3 /* Products */,
+				E3FAA04CBB58F9C28FB83CDF /* Pods */,
+				A0CE98A4D524C0367641A5AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18042A741B20A34C001AA1D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18042A731B20A34C001AA1D3 /* itjh-for-ipad.app */,
+				18042A8C1B20A34C001AA1D3 /* itjh-for-ipadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18042A751B20A34C001AA1D3 /* itjh-for-ipad */ = {
+			isa = PBXGroup;
+			children = (
+				181873EF1B354B8000E4DB74 /* View */,
+				18D656821B2521A500C42679 /* Model */,
+				182DF45F1B24214800EB46D9 /* ViewController */,
+				18042A7A1B20A34C001AA1D3 /* AppDelegate.h */,
+				18042A7B1B20A34C001AA1D3 /* AppDelegate.m */,
+				18042A801B20A34C001AA1D3 /* Main.storyboard */,
+				18042A831B20A34C001AA1D3 /* Images.xcassets */,
+				18042A851B20A34C001AA1D3 /* LaunchScreen.xib */,
+				18042A761B20A34C001AA1D3 /* Supporting Files */,
+			);
+			path = "itjh-for-ipad";
+			sourceTree = "<group>";
+		};
+		18042A761B20A34C001AA1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18042A771B20A34C001AA1D3 /* Info.plist */,
+				18042A781B20A34C001AA1D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18042A8F1B20A34C001AA1D3 /* itjh-for-ipadTests */ = {
+			isa = PBXGroup;
+			children = (
+				18042A921B20A34C001AA1D3 /* itjh_for_ipadTests.m */,
+				18042A901B20A34C001AA1D3 /* Supporting Files */,
+			);
+			path = "itjh-for-ipadTests";
+			sourceTree = "<group>";
+		};
+		18042A901B20A34C001AA1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18042A911B20A34C001AA1D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181873EF1B354B8000E4DB74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181873F01B354BA100E4DB74 /* cell */,
+				1800C20A1B313C760099EAB9 /* YCXMenu */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		181873F01B354BA100E4DB74 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				182DF45A1B24213100EB46D9 /* NewsCollectionViewCell.h */,
+				182DF45B1B24213100EB46D9 /* NewsCollectionViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		181873F11B354BB900E4DB74 /* 展示网页 */ = {
+			isa = PBXGroup;
+			children = (
+				182DF4601B24367200EB46D9 /* NewsWebViewController.h */,
+				182DF4611B24367200EB46D9 /* NewsWebViewController.m */,
+			);
+			name = "展示网页";
+			sourceTree = "<group>";
+		};
+		181873F21B354BE700E4DB74 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				1800C2121B3146800099EAB9 /* LoginViewController.h */,
+				1800C2131B3146800099EAB9 /* LoginViewController.m */,
+				1800C2151B3146990099EAB9 /* SignUpViewController.h */,
+				1800C2161B3146990099EAB9 /* SignUpViewController.m */,
+			);
+			name = "登录注册";
+			sourceTree = "<group>";
+		};
+		181873F31B354BF800E4DB74 /* 收藏 */ = {
+			isa = PBXGroup;
+			children = (
+				1800C21D1B32D5D10099EAB9 /* CollectionViewController.h */,
+				1800C21E1B32D5D10099EAB9 /* CollectionViewController.m */,
+			);
+			name = "收藏";
+			sourceTree = "<group>";
+		};
+		181873F41B354C0600E4DB74 /* 选择头像 */ = {
+			isa = PBXGroup;
+			children = (
+				1800C2181B324D540099EAB9 /* PickHeadImagePopoverController.h */,
+				1800C2191B324D540099EAB9 /* PickHeadImagePopoverController.m */,
+				1800C21B1B326EAE0099EAB9 /* PickHeadImagePopoverController.xib */,
+			);
+			name = "选择头像";
+			sourceTree = "<group>";
+		};
+		182DF45F1B24214800EB46D9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181873F31B354BF800E4DB74 /* 收藏 */,
+				181873F41B354C0600E4DB74 /* 选择头像 */,
+				181873F21B354BE700E4DB74 /* 登录注册 */,
+				1800C2111B3146410099EAB9 /* 首页 */,
+				181873F11B354BB900E4DB74 /* 展示网页 */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18D656821B2521A500C42679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D656811B251F1200C42679 /* Constants.h */,
+				18D656831B25273300C42679 /* NewsManager.h */,
+				18D656841B25273300C42679 /* NewsManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0CE98A4D524C0367641A5AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F1C9FA762B95C37A20FE47 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FAA04CBB58F9C28FB83CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E709E176DC70B049F7FDD1C /* Pods.debug.xcconfig */,
+				B4BC83264FE5B11A727C9E21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18042A721B20A34C001AA1D3 /* itjh-for-ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18042A961B20A34C001AA1D3 /* Build configuration list for PBXNativeTarget "itjh-for-ipad" */;
+			buildPhases = (
+				141FB1A60826CCF49A195E52 /* Check Pods Manifest.lock */,
+				18042A6F1B20A34C001AA1D3 /* Sources */,
+				18042A701B20A34C001AA1D3 /* Frameworks */,
+				18042A711B20A34C001AA1D3 /* Resources */,
+				E328DB6B4E357C262620F91C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "itjh-for-ipad";
+			productName = "itjh-for-ipad";
+			productReference = 18042A731B20A34C001AA1D3 /* itjh-for-ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18042A8B1B20A34C001AA1D3 /* itjh-for-ipadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18042A991B20A34C001AA1D3 /* Build configuration list for PBXNativeTarget "itjh-for-ipadTests" */;
+			buildPhases = (
+				18042A881B20A34C001AA1D3 /* Sources */,
+				18042A891B20A34C001AA1D3 /* Frameworks */,
+				18042A8A1B20A34C001AA1D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18042A8E1B20A34C001AA1D3 /* PBXTargetDependency */,
+			);
+			name = "itjh-for-ipadTests";
+			productName = "itjh-for-ipadTests";
+			productReference = 18042A8C1B20A34C001AA1D3 /* itjh-for-ipadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18042A6B1B20A34C001AA1D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = 2012110401;
+				TargetAttributes = {
+					18042A721B20A34C001AA1D3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					18042A8B1B20A34C001AA1D3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 18042A721B20A34C001AA1D3;
+					};
+				};
+			};
+			buildConfigurationList = 18042A6E1B20A34C001AA1D3 /* Build configuration list for PBXProject "itjh-for-ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18042A6A1B20A34C001AA1D3;
+			productRefGroup = 18042A741B20A34C001AA1D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18042A721B20A34C001AA1D3 /* itjh-for-ipad */,
+				18042A8B1B20A34C001AA1D3 /* itjh-for-ipadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18042A711B20A34C001AA1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18042A821B20A34C001AA1D3 /* Main.storyboard in Resources */,
+				18042A871B20A34C001AA1D3 /* LaunchScreen.xib in Resources */,
+				1800C21C1B326EAE0099EAB9 /* PickHeadImagePopoverController.xib in Resources */,
+				18042A841B20A34C001AA1D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18042A8A1B20A34C001AA1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141FB1A60826CCF49A195E52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E328DB6B4E357C262620F91C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18042A6F1B20A34C001AA1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18042A7F1B20A34C001AA1D3 /* ViewController.m in Sources */,
+				18042A7C1B20A34C001AA1D3 /* AppDelegate.m in Sources */,
+				18D656851B25273300C42679 /* NewsManager.m in Sources */,
+				1800C2141B3146800099EAB9 /* LoginViewController.m in Sources */,
+				182DF4621B24367200EB46D9 /* NewsWebViewController.m in Sources */,
+				1800C20F1B313C760099EAB9 /* YCXMenu.m in Sources */,
+				18042A791B20A34C001AA1D3 /* main.m in Sources */,
+				1800C21A1B324D540099EAB9 /* PickHeadImagePopoverController.m in Sources */,
+				1800C2101B313C760099EAB9 /* YCXMenuItem.m in Sources */,
+				1800C21F1B32D5D10099EAB9 /* CollectionViewController.m in Sources */,
+				1800C2171B3146990099EAB9 /* SignUpViewController.m in Sources */,
+				182DF45D1B24213100EB46D9 /* NewsCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18042A881B20A34C001AA1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18042A931B20A34C001AA1D3 /* itjh_for_ipadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18042A8E1B20A34C001AA1D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18042A721B20A34C001AA1D3 /* itjh-for-ipad */;
+			targetProxy = 18042A8D1B20A34C001AA1D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18042A801B20A34C001AA1D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18042A811B20A34C001AA1D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18042A851B20A34C001AA1D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18042A861B20A34C001AA1D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18042A941B20A34C001AA1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18042A951B20A34C001AA1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18042A971B20A34C001AA1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E709E176DC70B049F7FDD1C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "itjh-for-ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18042A981B20A34C001AA1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BC83264FE5B11A727C9E21 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "itjh-for-ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		18042A9A1B20A34C001AA1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "itjh-for-ipadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itjh-for-ipad.app/itjh-for-ipad";
+			};
+			name = Debug;
+		};
+		18042A9B1B20A34C001AA1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "itjh-for-ipadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itjh-for-ipad.app/itjh-for-ipad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18042A6E1B20A34C001AA1D3 /* Build configuration list for PBXProject "itjh-for-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18042A941B20A34C001AA1D3 /* Debug */,
+				18042A951B20A34C001AA1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18042A961B20A34C001AA1D3 /* Build configuration list for PBXNativeTarget "itjh-for-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18042A971B20A34C001AA1D3 /* Debug */,
+				18042A981B20A34C001AA1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18042A991B20A34C001AA1D3 /* Build configuration list for PBXNativeTarget "itjh-for-ipadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18042A9A1B20A34C001AA1D3 /* Debug */,
+				18042A9B1B20A34C001AA1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18042A6B1B20A34C001AA1D3 /* Project object */;
+}

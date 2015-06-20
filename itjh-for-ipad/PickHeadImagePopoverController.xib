@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickHeadImagePopoverController">
+            <connections>
+                <outlet property="headImageView" destination="ra9-aG-cfC" id="UID-bo-wMg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="pEP-CU-x0a"/>
+                <outletCollection property="imageViews" destination="KcR-2O-t2Z" id="Dfg-CS-qMd"/>
+                <outletCollection property="imageViews" destination="QbK-wN-oZQ" id="sKW-2u-L0J"/>
+                <outletCollection property="imageViews" destination="g3Y-dF-Y5b" id="Sqa-Nc-YVG"/>
+                <outletCollection property="imageViews" destination="DwR-VO-NsP" id="6mr-OG-Csd"/>
+                <outletCollection property="imageViews" destination="ewG-ed-e86" id="98m-he-Yfh"/>
+                <outletCollection property="imageViews" destination="0e9-RD-E5A" id="RlA-Ls-GFz"/>
+                <outletCollection property="imageViews" destination="ne0-Wi-qZC" id="7Ai-CV-N8D"/>
+                <outletCollection property="imageViews" destination="0uT-jb-f0d" id="FLD-Ue-hSJ"/>
+                <outletCollection property="imageViews" destination="gwL-sX-Yig" id="SE2-3t-k1Q"/>
+                <outletCollection property="imageViews" destination="MuL-Et-qME" id="uYd-6o-sJZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="600" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ra9-aG-cfC">
+                    <rect key="frame" x="179" y="54" width="100" height="100"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head9" translatesAutoresizingMaskIntoConstraints="NO" id="MuL-Et-qME">
+                    <rect key="frame" x="351" y="298" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head1" translatesAutoresizingMaskIntoConstraints="NO" id="QbK-wN-oZQ">
+                    <rect key="frame" x="114" y="207" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head2" translatesAutoresizingMaskIntoConstraints="NO" id="g3Y-dF-Y5b">
+                    <rect key="frame" x="199" y="207" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head3" translatesAutoresizingMaskIntoConstraints="NO" id="DwR-VO-NsP">
+                    <rect key="frame" x="274" y="207" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head4" translatesAutoresizingMaskIntoConstraints="NO" id="ewG-ed-e86">
+                    <rect key="frame" x="351" y="207" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head0" translatesAutoresizingMaskIntoConstraints="NO" id="KcR-2O-t2Z">
+                    <rect key="frame" x="39" y="207" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head6" translatesAutoresizingMaskIntoConstraints="NO" id="ne0-Wi-qZC">
+                    <rect key="frame" x="114" y="298" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head7" translatesAutoresizingMaskIntoConstraints="NO" id="0uT-jb-f0d">
+                    <rect key="frame" x="199" y="298" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head8" translatesAutoresizingMaskIntoConstraints="NO" id="gwL-sX-Yig">
+                    <rect key="frame" x="274" y="298" width="60" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head5" translatesAutoresizingMaskIntoConstraints="NO" id="0e9-RD-E5A">
+                    <rect key="frame" x="39" y="298" width="60" height="60"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsn-wm-6Ck">
+                    <rect key="frame" x="214" y="442" width="30" height="30"/>
+                    <state key="normal" title="确定">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="chooseThisImage:" destination="-1" eventType="touchUpInside" id="phf-io-0b7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="2353" y="-1021"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="head0" width="128" height="128"/>
+        <image name="head1" width="128" height="128"/>
+        <image name="head2" width="128" height="128"/>
+        <image name="head3" width="128" height="128"/>
+        <image name="head4" width="128" height="128"/>
+        <image name="head5" width="128" height="128"/>
+        <image name="head6" width="128" height="128"/>
+        <image name="head7" width="128" height="128"/>
+        <image name="head8" width="128" height="128"/>
+        <image name="head9" width="128" height="128"/>
+    </resources>
+</document>

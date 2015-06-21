@@ -43,6 +43,15 @@
     if (currentUser) {
         NSArray * article_ids=   [currentUser objectForKey:@"article_ids"];
         AVQuery *querty = [AVQuery queryWithClassName:@"article"];
+        if ([article_ids count]==0) {
+            UIAlertView *alertView  = [[UIAlertView alloc] initWithTitle:@"你还没有收藏文章呢"
+                                                                                        message:@"你还没有收藏文章呢"
+                                                                                        delegate:nil
+                                                                           cancelButtonTitle:@"好的"
+                                                                           otherButtonTitles: nil];
+            [alertView show];
+            return;
+        }
         [querty whereKey:@"article_id" containedIn:article_ids];
         
         [querty findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {

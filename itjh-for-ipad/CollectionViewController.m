@@ -75,7 +75,7 @@
 -(UICollectionViewCell*)collectionView:(UICollectionView *)collectionView
                        cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NewsCollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"news" forIndexPath:indexPath];
+    NewsCollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"collection_news" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     [cell.newsPhoto sd_setImageWithURL:_collections[indexPath.row][@"article_image_url"] placeholderImage:[UIImage imageNamed:@"default_showPic"]];
     cell.articleName.text = [_collections[indexPath.row] objectForKey:@"article_name"];

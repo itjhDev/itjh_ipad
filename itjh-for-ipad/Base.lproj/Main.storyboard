@@ -161,7 +161,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="（点击图片选择头像）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5o-E3-OOu">
                                 <rect key="frame" x="226" y="338" width="130" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXD-kf-EUr">
@@ -424,7 +424,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="news" reuseIdentifier="news" id="J0S-P6-teh" customClass="NewsCollectionViewCell">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="news" reuseIdentifier="collection_news" id="J0S-P6-teh" customClass="NewsCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -468,7 +468,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <outlet property="artcleName" destination="b8X-FH-5CK" id="Hhh-Kg-Mqi"/>
+                                            <outlet property="articleName" destination="b8X-FH-5CK" id="ubi-Mw-2az"/>
                                             <outlet property="author" destination="eho-Lq-Yyc" id="s7e-cp-z4r"/>
                                             <outlet property="newsPhoto" destination="xRd-yU-U1W" id="jVd-ys-i3Z"/>
                                             <outlet property="postTime" destination="CG8-Gu-KqR" id="Vpt-vf-iHZ"/>
@@ -602,6 +602,6 @@
         <image name="user" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tgR-88-CgE"/>
+        <segue reference="cS2-WJ-Qa6"/>
     </inferredMetricsTieBreakers>
 </document>

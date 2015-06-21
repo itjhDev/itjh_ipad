@@ -4,4 +4,4 @@ pod 'MBProgressHUD', '~> 0.9.1'
 pod "AFNetworking", "~> 2.0"
 pod 'MJRefresh'
 pod 'AVOSCloud'
-pod 'ChameleonFramework'
+#pod 'ChameleonFramework'

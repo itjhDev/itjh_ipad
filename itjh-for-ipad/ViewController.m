@@ -17,7 +17,7 @@
 #import "YCXMenu.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import "SDImageCache.h"
-#import "Chameleon.h"
+#import "UIColor+Chameleon.h"
 
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UIAlertViewDelegate>
 {
@@ -226,27 +226,27 @@
            if ([category isEqualToString:@"创业"]) {
             _selectedCategory = PoineeringWork;
             _news = _allNews[@"创业"];
-            newsCollectionView.backgroundColor = FlatRedDark;
+               newsCollectionView.backgroundColor = [UIColor flatRedColor];// FlatRedDark;
         }
         else if ([category isEqualToString:@"科技"]) {
             _selectedCategory = Technology;
             _news = _allNews[@"科技"];
-            newsCollectionView.backgroundColor =FlatSkyBlueDark ;
+            newsCollectionView.backgroundColor =[UIColor flatBlueColorDark];//FlatSkyBlueDark ;
         }
         else if ([category isEqualToString:@"互联网"]) {
             _selectedCategory = Internet;
             _news = _allNews[@"互联网"];
-            newsCollectionView.backgroundColor =FlatLimeDark ;
+            newsCollectionView.backgroundColor = [UIColor flatLimeColorDark];//FlatLimeDark ;
         }
         else if ([category isEqualToString:@"趣闻"]) {
             _selectedCategory = InterestingNews;
             _news = _allNews[@"趣闻"];
-            newsCollectionView.backgroundColor =FlatGreenDark ;
+            newsCollectionView.backgroundColor = [UIColor flatGreenColorDark];//FlatGreenDark ;
         }
         else if ([category isEqualToString:@"首页"]) {
             _selectedCategory = Base;
             _news = _allNews[@"首页"];
-            newsCollectionView.backgroundColor =FlatSandDark ;
+            newsCollectionView.backgroundColor =[UIColor flatSandColorDark];//FlatSandDark ;
         }
         
         //newsPage = [_news count];

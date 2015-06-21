@@ -24,6 +24,7 @@
 		18042A931B20A34C001AA1D3 /* itjh_for_ipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042A921B20A34C001AA1D3 /* itjh_for_ipadTests.m */; };
 		182DF45D1B24213100EB46D9 /* NewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DF45B1B24213100EB46D9 /* NewsCollectionViewCell.m */; };
 		182DF4621B24367200EB46D9 /* NewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DF4611B24367200EB46D9 /* NewsWebViewController.m */; };
+		1842468D1B3642490014FAE8 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842468C1B3642490014FAE8 /* UIColor+Chameleon.m */; };
 		18D656851B25273300C42679 /* NewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D656841B25273300C42679 /* NewsManager.m */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		182DF45B1B24213100EB46D9 /* NewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCollectionViewCell.m; path = ../NewsCollectionViewCell.m; sourceTree = "<group>"; };
 		182DF4601B24367200EB46D9 /* NewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsWebViewController.h; path = ../NewsWebViewController.h; sourceTree = "<group>"; };
 		182DF4611B24367200EB46D9 /* NewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsWebViewController.m; path = ../NewsWebViewController.m; sourceTree = "<group>"; };
+		1842468B1B3642490014FAE8 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		1842468C1B3642490014FAE8 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
 		18D656811B251F1200C42679 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		18D656831B25273300C42679 /* NewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsManager.h; sourceTree = "<group>"; };
 		18D656841B25273300C42679 /* NewsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsManager.m; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		1800C2111B3146410099EAB9 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				1842468B1B3642490014FAE8 /* UIColor+Chameleon.h */,
+				1842468C1B3642490014FAE8 /* UIColor+Chameleon.m */,
 				18042A7D1B20A34C001AA1D3 /* ViewController.h */,
 				18042A7E1B20A34C001AA1D3 /* ViewController.m */,
 			);
@@ -410,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18042A7F1B20A34C001AA1D3 /* ViewController.m in Sources */,
+				1842468D1B3642490014FAE8 /* UIColor+Chameleon.m in Sources */,
 				18042A7C1B20A34C001AA1D3 /* AppDelegate.m in Sources */,
 				18D656851B25273300C42679 /* NewsManager.m in Sources */,
 				1800C2141B3146800099EAB9 /* LoginViewController.m in Sources */,
